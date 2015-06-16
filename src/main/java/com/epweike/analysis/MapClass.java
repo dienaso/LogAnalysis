@@ -1,4 +1,4 @@
-package com.epweike.la;
+package com.epweike.analysis;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
-import com.epweike.la.utils.ParserUtil;
+import com.epweike.analysis.utils.ParserUtil;
 
 public class MapClass extends Mapper<LongWritable, Text, LongWritable, Text> {
 

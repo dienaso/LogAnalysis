@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.epweike.la.utils;
+package com.epweike.analysis.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
